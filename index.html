@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loader con Logo</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: #234050;
+        }
+        .container{
+            width: 100px;
+            height: 100px;
+            position: relative;
+            margin: 40px auto;
+            transform: rotate(45deg);
+        }
+        .logo-left{
+            width: 80%;
+            height: 65%;
+            border: 20px solid lightcoral;
+            border-bottom: none;
+            box-sizing: border-box;
+            position: relative;
+            top: 1px;
+            border-radius: 20px 20px 0 0;
+        }
+        .logo-right{
+            width: 100%;
+            height: 35%;
+            border: 20px solid lightcoral;
+            border-top: none;
+            box-sizing: border-box;
+            border-radius: 0 0 20px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-left"></div>
+        <div class="logo-right"></div>
+    </div>
+</body>
+</html>
